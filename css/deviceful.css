@@ -20,7 +20,7 @@ footer{
 }
 
 .jumbotron {
-    margin: 0;
+    margin: 0%;
     padding: 30px;
     background-image: linear-gradient(white,blue);
     color: rgb(17, 17, 17);
@@ -56,4 +56,55 @@ h5 {
 
 background {
     background-color: #140970 ;
+}
+
+
+.product_price{
+    font-weight: bolder;
+}
+
+.product_name{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 30;
+}
+
+#container .left, #container .right, #container .middle{
+    width: 30%;
+    display: inline-block;
+    margin: 1%;
+}
+
+#container {
+    width: 96%;
+    margin: 2%;
+}
+
+h1 {
+    text-align: center;
+}
+
+//.jumbotron{
+    margin: 0em;
+    padding: 100px;
+    color: white;
+    text-align: center;
+    background-image: url("./assets/banner_image.png");
+}
+
+.jumbotron h1{
+    font-size: 100px;
+    margin: 0px;
+}
+
+.jumbotron h3{
+    font-size: 25px;
+}
+
+#samples {
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #777777;
+    font-size: 20px;  
 }
